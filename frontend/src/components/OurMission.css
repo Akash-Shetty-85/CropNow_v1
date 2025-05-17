@@ -1,0 +1,96 @@
+.mission-section {
+  background: linear-gradient(to bottom, #020b03, #022e0b, #141714);
+  color: white;
+  padding: 100px 40px;
+  text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+
+.mission-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.mission-subtitle {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #C4C4C4;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.8px solid rgb(68, 119, 68);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+}
+
+.mission-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 650;
+  line-height: normal;
+}
+
+.mission-card p {
+ color: #C4C4C4;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.8rem;
+padding-bottom: 2rem;
+}
+
+.mission-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display:block;
+   max-width: 300px;
+}
+
+.mission-card:has(img:only-child){
+   padding: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.mission-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+

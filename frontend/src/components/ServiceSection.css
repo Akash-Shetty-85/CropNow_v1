@@ -1,0 +1,19 @@
+.services-container {
+  background-color: #0B0B0B;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.services-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.services-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
